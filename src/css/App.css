@@ -1,0 +1,31 @@
+.main_container {
+    font-family: sans-serif;
+    background-color:rgb(245, 127, 127);
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    border-style:double;
+}
+
+input {
+    top: 20px;
+    left: 100px;
+    height: 30px;
+    width: 800px;
+}
+
+.div_components {
+    font-weight: bolder;
+    font-style: italic;
+}
+a {
+    color:rgb(86, 211, 236);
+}
+
+img {
+    position: relative;
+    left: 900px;
+    top: -50px;
+    width: 300px;
+}
+

@@ -9,12 +9,12 @@ const StorySelect = ({stories}) => {
     })
 
     return (
-        <div className="story-list">
-            <h3>Story List</h3>
-            <ul>
-                {StoryItems}
-            </ul>
-        </div>
+        <>
+            <h3>Current Articles</h3>
+                <ul>    
+                    {StoryItems}
+                </ul>
+        </>
     )
 }
 

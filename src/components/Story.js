@@ -5,10 +5,9 @@ const Story = ({story}) => {
     
        if (story.url) {
             return(
-                <>
-                <li>{story.title}</li>
-                <li><a href={story.url}>{story.url}</a></li>
-                </>
+                <div className="div_components">
+                    <li>{story.title} <a href={story.url}>{story.url}</a></li>
+                </div>
             )
         
        } else {

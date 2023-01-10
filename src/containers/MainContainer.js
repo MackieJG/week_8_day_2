@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import SearchBar from "../components/SearchBar";
 import StorySelect from "../components/StorySelect";
+import hackerImage from "../images/hacker.jpg";
+
 
 const MainContainer = () => {
 
@@ -32,8 +34,9 @@ const MainContainer = () => {
         setStories(filteredNews);
     }
     return (
-        <div>
-            <h1>Stories Page</h1>
+        <div className="main_container">
+            <h1>Hacker's News</h1>
+            <img src={hackerImage} alt="Hacker"/>
             <SearchBar stories={stories} filteredResults={filteredResults}/>
             <ul>
                 <StorySelect stories={stories}/>

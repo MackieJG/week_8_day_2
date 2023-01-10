@@ -15,9 +15,9 @@ const SearchBar = ({filteredResults}) => {
     }, [searchResults])
 
     return( 
-        <div>
+        <>
             <input type='search' onChange={handleChange} value={searchResults}></input>
-        </div>
+        </>
     )
 
 }
